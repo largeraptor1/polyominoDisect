@@ -1215,9 +1215,6 @@ int main(void) {
 
   tHead = pruning(tHead); // Removes invalid polyomino placements from
                           // selection.
-
-  printf("starting cover count\n");
-
   if (P > 4) {
     build_heads3(); // Bucket sorts the valid polyomino placements.
 
