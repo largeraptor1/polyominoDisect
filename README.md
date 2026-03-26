@@ -2,8 +2,9 @@
 
 This code repo has the functionality for enumerating NxN polyomino grid coverings for all values of N from 1 to 7.
 The value for N is currently capped at 7 due to the 64 bit-masking used to find full covers as quickly as possible (I think this could be somewhat easily fixed by just adding an additional integer for each polyomino placement to store grid cells >= 64).
-The repo builds off of the libexact software for combinatorial exact covering problems.
+The repo builds off of the libexact software for combinatorial exact covering problems. 
 
+Important notice: Multi-processing is used for value N > 3, so how well this program functions will depend significantly on your local device's core count.
 
 Installation and usage Instructions: 
 1) Clone the repo to your local system.
