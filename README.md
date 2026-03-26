@@ -14,14 +14,14 @@ Installation and usage Instructions:
 
 Upon completion of the enumeration, information will be printed to the command line like so:
 
-Count of polyomino positions = *number*
+Count of polyomino positions = *number*<br>
 
 ** Eliminating the invalid polyomino positions **
 
-total valid polyomino positions: *number*
-Total unique covers: *number*
-TBA ... skipped, covp set to copp = *number*
-CPU time = *time in seconds*
+total valid polyomino positions: *number*<br>
+Total unique covers: *number*<br>
+TBA ... skipped, covp set to copp = *number*<br>
+CPU time = *time in seconds*<br>
 
 Note: the CPU time is incorrect for values of P < 3 due to multi-processing.
 For the correct run-time, you can the program with the time command like so: 'time ./covers'
