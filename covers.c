@@ -28,10 +28,10 @@ to P=6 on-the-fly, but for P=7 we'll have to store them in a (big) file.
 #define True 1
 #define False 0
 
-#define Pmin 1
-#define Pmax 49
-
 #define P 7 /* `target' tile size */
+
+#define Pmin 1
+#define Pmax P*P
 
 int tile[P][2]; /* the tile's x/y coords */
 int t[P + 1];   /* count of (fixed) tiles */
@@ -1238,7 +1238,7 @@ int main(void) {
     children = 36;
   }
 
-  printf("total polyominoes: %d\n", totalPolys);
+  printf("total valid polyomino positions: %d\n", totalPolys);
 
   ///
   // CHATGPT code start
