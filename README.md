@@ -1,4 +1,4 @@
-# polyominoDisect
+# Polyomino Grid Enumeration
 
 This code repo has the functionality for enumerating NxN polyomino grid coverings for all values of N from 1 to 7.
 The value for N is currently capped at 7 due to the 64 bit-masking used to find full covers as quickly as possible (I think this could be somewhat easily fixed by just adding an additional integer for each polyomino placement to store grid cells >= 64).
