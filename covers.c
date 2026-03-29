@@ -1,5 +1,5 @@
 
-/* covers.c  :  5 Dec 24 .. 10 Dec 24  :  Colin Ramsay */
+/* covers.c  :  16 Aug 25 .. 29 Mar 26  :  Zach Clark */
 
 /* Ex
 desk4-OptiPlex-9020/EXWORK/PC00328/Orig30Jun09/Archive1/poly/enum/enum2.c
